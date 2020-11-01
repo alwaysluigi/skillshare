@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 40px 0 0 0;
+    font-family: 'Roboto', arial, sans-serif ;
+    background: #e5e5e5;
+    
+}
+nav {
+    background: #ccc;
+    border-bottom: grey 1px solid;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+}
+#brand {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+nav a {
+    text-align: center;
+}
+#nav-container {
+    border-right: solid 1px darkgrey;
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+    height: 200px;
+}
+#nav-title {
+text-align: center;
+}
+.nav {
+    padding-left: 0;
+}
+.nav li {
+    list-style-type: none;
+    text-align: center;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover {
+    background-color: darkgrey;
+}
+#body{
+    text-align: center
+}
+blockquote {
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Shrikhand';
+
+}
+footer {
+    margin-top: 500px;
+    border: 1px black solid;
+    width: 100%;
+    background: black;
+    color: white;
+    height: 200px;
+}
+.col1, .col2, .col3 {
+    display: inline-block;
+    width: calc(31% - 60px);
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 30px;
+
+}
+.full-col {
+    margin-top: 50px;
+    width: calc(100% - 60px);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

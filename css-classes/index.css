@@ -1,21 +1,14 @@
-p.left{
-    text-transform: uppercase;    
-    font-size: 75%;
+.test {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    transition-duration: 750ms;
+    transition-property: color, background, font-size;
+    transition-timing-function: linear;
+    border-radius: 25px;
 }
-
-p.right {
-    text-transform: capitalize;    
-    font-size: 75%;
-}
-
-p.justified {
-    text-transform: lowercase;
-    
-    font-size: 75%;
-}
-
-p.center {
-    text-transform: inherit;
-    font-size: 75%;
-    text-indent: 50px;
+.test:hover {
+    color: white;
+    background-color: black;
+    font-size: 56px;
 }
