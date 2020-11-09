@@ -7,10 +7,7 @@
     <title>JavaScript</title>
     <style>
 
-    
-        h1 {
-            width: 100%;
-        }
+
 
     </style>
 
@@ -18,34 +15,25 @@
 <body>
 
 
-<h1 id="sentence">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed magna nisi, mattis nec lacinia ut, eleifend ut dolor. Mauris ac imperdiet arcu, nec efficitur velit. Duis a tellus velit. Fusce vel ultricies velit. Proin cursus maximus ullamcorper. Quisque sollicitudin orci id lectus pharetra, in sollicitudin lorem porta. Cras auctor dolor vitae tincidunt blandit. Cras velit justo, accumsan id ligula sed, vulputate tempus orci. Pellentesque sit amet metus iaculis magna venenatis sagittis. Fusce vitae tempus augue. Sed dolor leo, laoreet venenatis lectus sit amet, volutpat mollis dui. Duis vulputate tempor est, vitae maximus nibh fermentum in. In eget eros enim.
-</h1>
-
-
+    <h1 class="results"></h1>
 
     <script> 
 
-    var sentenceNode = document.getElementById('sentence');
-    var sentence = sentenceNode.innerText;
-    var upperSentence = sentence.toUpperCase();
-    var lowerSentence = sentence.toLowerCase();
-    var firstTenChars = sentence.substr(0, 10); 
-    var allWords = sentence.split(" ")
-    var bracketWords =  allWords.join(" weeee ");
-    var firstThreeWords = allWords.slice(4);
+ 
+    var num2 = prompt("What is your age");
+    num2 = Number(num2);
     
-
-
-    console.log(allWords);
-
-
-    
-    
-
+    if (num2 >= 18){
+        var results = document.getElementById("results");
+        results.innerText = "TEST"
+    } else {
+        
+    }
 
 
 
     </script>
 </body>
 </html>
+
+
