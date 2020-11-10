@@ -5,48 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
-    <style>
-        p{
-            margin-top: 100px;
-        }
-    </style>
+
+
+
 </head>
 <body>
-    <!-- Create three inputs, background color, text color, text size -->
-    <label for=".bgColor">Background Color</label>
-    <input type="text" class="bgColor">
-
-    <label for=".textSize">Text Size</label>
-    <input type="number" class="textSize">
-
-    <label for=".fontColor">Font Color</label>
-    <input type="text" class="fontColor">
-
-    <p class="para">Hello there and welcome to this test page!</p>
-
-    <script>
-    var body = document.querySelector("body");
-    var para = document.querySelector(".para")
-    var bgColor = document.querySelector(".bgColor");
-    var textSize =  document.querySelector(".textSize");
-    var fontColor = document.querySelector(".fontColor");
-
-    bgColor.addEventListener('keyup', function(event) {
-        var color = event.target.value;
-        body.style.backgroundColor = color;
-    })
-    textSize.addEventListener('keyup', function(event){
-        var size = event.target.value;
-        para.style.fontSize = size + 'px';
-    })
-    
-    fontColor.addEventListener('keyup', function(event){
-        var color = event.target.value;
-        body.style.color = color;
-    })
 
 
-    </script>
+
+
+
+
+
+
+
+
+
+<script>
+
+
+    var matthew = {
+        'name': "Matthew",
+        'sound': function() {
+            console.log("Fuck the Police")
+        },
+        'cats': 3,
+        'dogs': 1,
+        'age': 35,
+    }
+</script>
+
+
+
+
+
+
+
 </body>
 </html>
 
