@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
     <style>
+        .body{
+            margin: 0 auto;
+        }
     .purp {
         background-color: purple;
         border: 2px black solid;
@@ -24,12 +27,12 @@
     </style>
 </head>
 <body>
-    
-<input type="text" class="bgColor">
+  <div class="body">
+<input type="text" class="bgColor" placeholder="type a color in">
 <button class="purp">purple</button>
 <button class="red">red</button>
 <button class="blue">blue</button>
-
+</div>  
     <script>
     var bgColor = document.querySelector(".bgColor");
     var body = document.querySelector("body");
