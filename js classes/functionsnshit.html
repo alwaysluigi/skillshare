@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 100px;
+            width: 100px;        }
+        .boxes {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .div1{
+            border: 1px red solid;
+
+        }
+        .div2{
+            border: 1px blue solid;
+
+        }
+        .div3{
+            border: 1px green solid;
+
+        }
+    </style>
+</head>
+<body>
+    
+<p class="div1only">Click Me</p>
+
+<div class="boxes">
+<div class="div1 box"></div>
+<div class="div1 box"></div>
+<div class="div1 box"></div>
+<div class="div2 box"></div>
+<div class="div2 box"></div>
+<div class="div2 box"></div>
+<div class="div3 box"></div>
+<div class="div3 box"></div>
+<div class="div3 box"></div>
+</div>
+<script>
+
+    var divOneOnly = document.querySelector(".div1only")
+    var div1 = document.querySelectorAll(".div1")
+    var div2 = document.querySelector(".div2")
+    var div3 = document.querySelectorAll(".div3")
+    divOneOnly.addEventListener('click', function(event) {
+        div2.style.display = "none";
+        div2.style.display = "none";
+        div2.style.display = "none";
+    })
+    
+
+
+
+
+
+
+// var nameInput = document.querySelector(".nameInput");
+// var name = prompt("What is your name?")
+// nameInput.innerText = name;
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
