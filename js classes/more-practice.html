@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+<ul>
+    <li class="js-text">1</li>
+    <li class="js-text">2</li>
+    <li class="js-text">3</li>
+    <li class="js-text">4</li>
+    <li class="js-text">5</li>
+    <li class="js-text">6</li>
+    <li class="js-text">7</li>
+    <li class="js-text">8</li>
+    <li class="js-text">9</li>
+    <li class="js-text">10</li>
+    <li class="js-text">11</li>
+    <li class="js-text">12</li>
+    <li class="js-text">100</li>
+</ul>
+
+
+<script>
+
+// var jsText = document.querySelectorAll("js-text")
+var list = document.querySelectorAll(".js-text")
+list.forEach(function(listName, listNumber){
+    if (listNumber < 5){
+        listName.remove();
+    }
+    listName.innerText = (listNumber * 5)
+})
+
+</script>
+
+
+</body>
+</html>
