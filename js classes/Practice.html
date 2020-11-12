@@ -11,17 +11,37 @@
 </head>
 <body>
 
+<button class="push">Push</button>
+<button class="other">Other Button</button>
+<input type="text" class="backgroundColorChange" placeholder="Enter a color">
+<input type="text" class="textChange" placeholder="Enter a color">
 
-
-
-
-
-
-
-
+<p class="para">When you push this button the background will turn white and the font will turn black</p>
+<p>Pushing the other button will change it back</p>
 
 
 <script>
+    body = document.querySelector("body");
+document.querySelector(".push").addEventListener('click', function(){
+    body.style.backgroundColor = "black";
+    body.style.color = "white"
+    body.style.fontFamily = "Helvetica, sans-serif"
+    body.style.fontSize = 30 + "px"
+});
+document.querySelector(".other").addEventListener('click', function(){
+    body.style.backgroundColor = "white";
+    body.style.color = "black";
+    body.style.fontSize = 15 + "px"
+})
+    backgroundColorChange = document.querySelector(".backgroundColorChange")
+    backgroundColorChange.addEventListener('keyup', function(){
+    body.style.backgroundColor = backgroundColorChange.value
+})
+    textChange = document.querySelector(".textChange");
+    textChange.addEventListener('keyup', function(){
+    body.style.color = textChange.value
+    })
+
 
 
 

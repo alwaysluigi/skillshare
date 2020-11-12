@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="../img/catmoon.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+
+
+</head>
+<body>
+
+<ul>
+    <li class="js-text">Item 1</li>
+    <li class="js-text">Item 2</li>
+    <li class="js-text">Item 3</li>
+    <li class="js-text">Item 4</li>
+    <li class="js-text">Item 5</li>
+    <li class="js-text">Item 6</li>
+    <li class="js-text">Item 7</li>
+    <li class="js-text">Item 8</li>
+    <li class="js-text">Item 9</li>
+    <li class="js-text">Item 10</li>
+    <li class="js-text">Item 11</li>
+    <li class="js-text">Item 12</li>
+    <li class="js-text">Item 13</li>
+    <li class="js-text">Item 14</li>
+    <li class="js-text">Item 15</li>
+    <li class="js-text">Item 16</li>
+    <li class="js-text">Item 18</li>
+    <li class="js-text">Item 19</li>
+    <li class="js-text">Item 100</li>
+</ul>
+
+
+
+
+
+
+<script>
+
+var lis = document.querySelectorAll(".js-text")
+lis.forEach(function(name, index){
+    if (index >= 10){
+        name.remove()
+        return true
+    }
+    name.innerText = (index * 12) + " is the number."
+})
+
+
+
+
+
+
+// var magicNum = 12;
+//     var body = document.querySelector("body")
+//     while(true){
+//         var num = Number(prompt("Guess a number between 1 and 20"))
+    
+//         if (num && num == magicNum){
+//             // you win
+//             body.style.backgroundColor = "black";
+//             body.style.color = "white";
+//             body.innerHTML = "You WIN!"
+//             break;
+//           }
+//         }
+    
+
+
+
+
+
+// var names = ["Matthew", "Chelsea", "Tee3", "Luna"]
+
+
+// names.forEach(function (name, index) {
+//     console.log(index, name);
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var words = "penis pariatur elit est minim ut aliqua quis pariatur amet est cillum in. Sunt ea ullamco laborum duis labore et et consequat officia. Ad sunt officia elit aliqua butthole. and poo".split(" ")
+
+
+// for (var i = 0; i < words.length; i++){
+// var email = words[i].toLowerCase() + "@gmail.com"
+// console.log(i, email);
+// }
+
+// for (var i = 0; i <words.length; i += 2){
+//     var emails = words[i].toLowerCase() + "@yahoo.com"
+//     console.log(i, emails)
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var lis = document.querySelectorAll(".js-text")
+
+// lis.forEach(function(node, index){
+   
+//    if (index >= 10) {
+//        node.remove()
+//        return false
+//    }
+   
+   
+   
+//     node.innerText = (index * 5.125 + " this is your number")
+// })
+
+
+
+
+
+
+
+
+
+
+// var names = ["matthew", "luna", "tee3", "archie!"]
+
+
+// names.forEach(function(name, index) {
+//     console.log(index, name);
+// })
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
