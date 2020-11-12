@@ -11,6 +11,7 @@
 </head>
 <body>
 
+<<<<<<< Updated upstream
 <button class="push">Push</button>
 <button class="other">Other Button</button>
 <input type="text" class="backgroundColorChange" placeholder="Enter a color">
@@ -47,8 +48,17 @@ document.querySelector(".other").addEventListener('click', function(){
 
 </script>
 
+=======
+<input type="text" class="js-input" autofocus>
+<p class="js-output"></p>
+    <script>
+>>>>>>> Stashed changes
 
-
+    var input = document.querySelector(".js-input");
+    var nameElem = document.querySelector(".js-output");
+    input.addEventListener('keyup', function(event){
+        nameElem.innerText = event.target.value;
+    })
 
 
 
