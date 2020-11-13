@@ -5,61 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
-
+<style>
+    body {
+        color: white;
+    }
+</style>
 
 
 </head>
 <body>
-
-<<<<<<< Updated upstream
-<button class="push">Push</button>
-<button class="other">Other Button</button>
-<input type="text" class="backgroundColorChange" placeholder="Enter a color">
-<input type="text" class="textChange" placeholder="Enter a color">
-
-<p class="para">When you push this button the background will turn white and the font will turn black</p>
-<p>Pushing the other button will change it back</p>
-
-
+Chelsea is a cute butt!
 <script>
-    body = document.querySelector("body");
-document.querySelector(".push").addEventListener('click', function(){
-    body.style.backgroundColor = "black";
-    body.style.color = "white"
-    body.style.fontFamily = "Helvetica, sans-serif"
-    body.style.fontSize = 30 + "px"
-});
-document.querySelector(".other").addEventListener('click', function(){
-    body.style.backgroundColor = "white";
-    body.style.color = "black";
-    body.style.fontSize = 15 + "px"
-})
-    backgroundColorChange = document.querySelector(".backgroundColorChange")
-    backgroundColorChange.addEventListener('keyup', function(){
-    body.style.backgroundColor = backgroundColorChange.value
-})
-    textChange = document.querySelector(".textChange");
-    textChange.addEventListener('keyup', function(){
-    body.style.color = textChange.value
-    })
+
+
+
+// Timeouts 
+
+console.log("First");
+setTimeout(function (){
+    console.log("second!");
+    const body = document.querySelector("body");
+    body.style.backgroundColor = "red";
+    body.style.color = "white";
+    body.style.fontSize = 50 + "px";
+}, 2000)
+console.log("Third");
 
 
 
 
+// destructuring practice
+    // var arr = ['matthew', 'tee3', 'luna', 'Chelsea', 'Archie', 'Gilbert', 'Frank, the asshole'];
+
+    // let [matthew, tee3, luna, ...theRest] = arr
+    // console.log(theRest);
+
+// var fullName = prompt('What is your First and Last name', 'Matthew Mitchell')
+
+// let [firstName, lastName] = fullName.split(' ')
+
+// console.log(`Your name is ${firstName} ${lastName} `);
+// console.log(lastName);
+
+
+// const person = {
+//     'name': 'Matthew',
+//     'age': 35,
+//     'cats': 3,
+//     'dogs': 1
+// }
+
+// let {dogs:puppos, cats} = person
+// console.log(`I have ${puppos} dog and I have ${cats} cats`);
+
+
+
+// object literals
+    // const computer = 'I AM A COMPUTER, idiot'
+    // const person = {
+    //     'name': 'Matthew',
+    //     speak(){
+    //         console.log("I SAY PEEPEE NOW");
+    //     },
+    //     computer,
+    // }
+
+
+    // console.log(person.computer)
 </script>
-
-=======
-<input type="text" class="js-input" autofocus>
-<p class="js-output"></p>
-    <script>
->>>>>>> Stashed changes
-
-    var input = document.querySelector(".js-input");
-    var nameElem = document.querySelector(".js-output");
-    input.addEventListener('keyup', function(event){
-        nameElem.innerText = event.target.value;
-    })
-
 
 
 
