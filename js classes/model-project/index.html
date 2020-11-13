@@ -2,13 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="index.css"></script>
     <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <button class="modalOpen">Press to Modal</button>
-    <div class="modalContent">Look, I made a modal!</div>
+    <button class="modalOpen" id="myBtn">Press to Modal</button>
+    <div class="modal" id="myModal">
+        <div class="modalContent">
+            <span class="close">&times;</span>
+            <p>Look, I made a modal!</p>
+        </div>
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>
