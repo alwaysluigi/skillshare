@@ -12,12 +12,12 @@ padding: 0;
     font-size: 50px;
     margin-left: 15px;
     font-family: 'Stalinist One', sans-serif;
-    transition-duration: 1000ms;
+    transition-duration: 2000ms;
     display: inline-block;
 }
 .js-letter:hover {
     color: maroon;
-    transform: rotate(-90deg) scale(1.5);
+    transform: rotate(720deg) scale(1.5);
 }
 
 
